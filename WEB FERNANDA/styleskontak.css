@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:content-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior:smooth;
+}
+
+:root {
+    --text-color: #fff;
+    --bg-color: rgb(5, 9, 31);
+    --main-color: rgb(3, 119, 227);
+    --other-color: #b5b9bf;
+
+    --h1-font: 4.5rem;
+    --h2-font: 2.9rem;
+    --p-font: 1rem;
+}
+
+header {
+    position: fixed;
+    width: 80%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16%;
+    background: var(--bg-color);
+    transition: all .50s ease;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('corelbg.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+.navlist {
+    display: contents;
+}
+
+.navlist a {
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--text-color);
+    margin-left: 5px;
+    transition: all .10s ease;
+}
+
+.navlist a:hover {
+    padding-right: 30px;
+    color: var(--main-color);
+}
+
+.contact-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    padding: 50px;
+    max-width: 600px;
+    text-align: center;
+}
+.contact-container h2 {
+    margin-bottom: 20px;
+}
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-container input, 
+.contact-container textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.contact-container button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.contact-container button:hover {
+    background-color: #0056b3;
+}
+.contact-info {
+    margin-top: 20px;
+    text-align: left;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.social-icons {
+    margin-top: 10px;
+    text-align: center;
+}
+.social-icons a {
+    color: #333;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #007BFF;
+}
+</style>
